@@ -205,6 +205,30 @@ cancellations made those runs unreadable in the panel. `workflow_dispatch` is
 still worth keeping (re-run any ref without pushing), but the diagnosis attached
 to it was false. Head is HELD from here while he works.
 
+## #95 merge-closure candidate: authority and public deletion are explicit
+
+Retirement authority is scoped to one durable publication. Record creation,
+replacement, cleanup, reverse-scan repair, and stale self-healing revalidate
+under the record lock; final deletion requires the exact current publication
+and re-proves fingerprints after retained-handle coordination. A stale
+publication cannot authorize or clean up a newer one.
+
+Public `delete_index` uses `lock_wait=False` for one immediate coordination
+attempt and returns the existing retryable lifecycle-busy result on contention.
+Internal retirement remains explicit with `lock_wait=True` and its bounded
+wait. Successful deletion leaves the stable per-index lockfile in place and
+keeps primary-last ordering.
+
+The deleted, missing, and lifecycle-contention responses have one authoritative
+runtime vocabulary. `SPEC.md` publishes the exact table, and a focused drift
+guard compares it with runtime behavior. QA-25's caller-explicit wait policy
+and low-level nonblocking default are preserved and verified, not redesigned.
+
+Evidence for this candidate is currently limited to focused local Windows
+tests and the unchanged frozen lifecycle harness. Do not infer Linux validation,
+submission readiness, maintainer approval, or independent final review from
+that evidence.
+
 ## CHANGELOG maintenance warning (2026-07-18 incident)
 CHANGELOG.md's established format is `## [X.Y.Z] - date - title` with curated
 prose. Do NOT run `scripts/generate_changelog.py` against it: the script emits
