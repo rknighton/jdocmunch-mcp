@@ -1,0 +1,192 @@
+{
+  "format": "project-recovery-parts-v1",
+  "sourcePlan": {
+    "slug": "jdocmunch-old-evidence",
+    "repo": "rknighton/jdocmunch-mcp",
+    "allowCreate": false,
+    "sources": [
+      {
+        "root": "C:\\Users\\Admin\\Documents\\JDocMunch_PR95_Local_Evidence",
+        "retain": [
+          ".codex-local",
+          "AGENTS.md"
+        ]
+      }
+    ]
+  },
+  "parts": [
+    {
+      "name": "recovery.tar.gz.part0001",
+      "bytes": 94371840,
+      "sha256": "3cd39f90256b29264956f0d6938bd609ea7137afdf43efb77c8947baf0f022c2"
+    },
+    {
+      "name": "recovery.tar.gz.part0002",
+      "bytes": 1096010,
+      "sha256": "06b103778c0c3ca02bfd2c192f8f0cd311db32f44ae012c430fe26bde6292f21"
+    }
+  ],
+  "archiveSha256": "b2c2fd454842d38de34a8b3a04e97cf1d07ee2964a4369de5c8bd8434485730a",
+  "archiveBytes": 95467850,
+  "selectedFiles": 2655,
+  "selectedLogicalBytes": 133244195,
+  "gitRepositories": 1,
+  "excluded": [
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/src/jdocmunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "worktrees/baseline-3709d21/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/src/jdocmunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b9/baseline-a-3709/tree/.pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b3a/baseline-3709d21/.git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/src/jdocmunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/benchmarks/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/benchmarks/replay/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-repo-root-evidence-2026-07-26/b1/baseline-3709d21/tree/.pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "relocated-codex-local-remainder-2026-07-26/final-evidence/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "d6178a9/__pycache__",
+      "reason": "rebuildable/test-generated"
+    }
+  ],
+  "retained": []
+}
