@@ -1,0 +1,200 @@
+{
+  "format": "project-recovery-parts-v1",
+  "sourcePlan": {
+    "slug": "jdocmunch-old-clones",
+    "repo": "rknighton/jdocmunch-mcp",
+    "allowCreate": false,
+    "sources": [
+      {
+        "root": "C:\\Users\\Admin\\Documents\\GIT\\jdocmunch-mcp",
+        "retain": [
+          "AGENTS.md",
+          ".codex-local"
+        ]
+      },
+      {
+        "root": "C:\\Users\\Admin\\Documents\\GIT\\Temp\\jdocmunch-qa",
+        "retain": [
+          "AGENTS.md",
+          ".codex-local"
+        ]
+      }
+    ]
+  },
+  "parts": [
+    {
+      "name": "recovery.tar.gz.part0001",
+      "bytes": 16122544,
+      "sha256": "aaeebabf94880ae1953ad86ddd50e128a7464a8023b3a81514113f873c9d5174"
+    }
+  ],
+  "archiveSha256": "aaeebabf94880ae1953ad86ddd50e128a7464a8023b3a81514113f873c9d5174",
+  "archiveBytes": 16122544,
+  "selectedFiles": 1171,
+  "selectedLogicalBytes": 19634427,
+  "gitRepositories": 2,
+  "excluded": [
+    {
+      "source": 0,
+      "path": "tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "src/jdocmunch_mcp/cli/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "scripts/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "benchmarks/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": "benchmarks/replay/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": ".venv",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": ".ruff_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": ".pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 0,
+      "path": ".git",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "tests/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/tools/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/summarizer/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/storage/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/retrieval/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/parser/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/embeddings/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "src/jdocmunch_mcp/cli/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "scripts/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "benchmarks/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": "benchmarks/replay/__pycache__",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": ".qa-venv",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": ".pytest_cache",
+      "reason": "rebuildable/test-generated"
+    },
+    {
+      "source": 1,
+      "path": ".git",
+      "reason": "rebuildable/test-generated"
+    }
+  ],
+  "retained": [
+    {
+      "source": 0,
+      "path": "AGENTS.md",
+      "reason": "owner-protected local-only material"
+    }
+  ]
+}
